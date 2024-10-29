@@ -19,6 +19,7 @@
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTimeEdit>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -35,6 +36,7 @@ public:
     QLabel *label;
     QLabel *label_2;
     QLineEdit *lineEdit;
+    QTimeEdit *timeEdit;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -91,6 +93,12 @@ public:
         lineEdit->setObjectName("lineEdit");
         lineEdit->setGeometry(QRect(80, 120, 251, 41));
         lineEdit->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        timeEdit = new QTimeEdit(centralwidget);
+        timeEdit->setObjectName("timeEdit");
+        timeEdit->setGeometry(QRect(470, 190, 118, 29));
+        timeEdit->setWrapping(false);
+        timeEdit->setTimeSpec(Qt::TimeSpec::LocalTime);
+        timeEdit->setTime(QTime(1, 0, 1));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
