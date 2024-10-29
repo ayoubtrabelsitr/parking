@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-fcfb3adf852dd2e9fda7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "parking_1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "parking_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parking_1-Debug-1172c01d3d465eff8da6.json",
+					"name" : "parking_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parking_1_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parking_1_autogen-Debug-879ff2fa1a96997914d3.json",
+					"name" : "parking_1_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parking_1_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parking_1_autogen_timestamp_deps-Debug-21d91e8dc28004cf4b0b.json",
+					"name" : "parking_1_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Ayoub/Desktop/code/Qt/parking_1/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Debug",
+		"source" : "C:/Users/Ayoub/Desktop/code/Qt/parking_1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
