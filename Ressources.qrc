@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>calendrier.png</file>
+        <file>heures.png</file>
+        <file>car.png</file>
+    </qresource>
+</RCC>

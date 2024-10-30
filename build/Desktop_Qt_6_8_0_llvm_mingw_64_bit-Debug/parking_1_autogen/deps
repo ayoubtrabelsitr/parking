@@ -1069,6 +1069,7 @@ parking_1_autogen/timestamp: \
 	C:/Qt/Tools/llvm-mingw1706_64/lib/clang/17/include/stdarg.h \
 	C:/Qt/Tools/llvm-mingw1706_64/lib/clang/17/include/vadefs.h \
 	C:/Users/Ayoub/Desktop/code/Qt/parking_1/CMakeLists.txt \
+	C:/Users/Ayoub/Desktop/code/Qt/parking_1/Ressources.qrc \
 	C:/Users/Ayoub/Desktop/code/Qt/parking_1/Voiture.cpp \
 	C:/Users/Ayoub/Desktop/code/Qt/parking_1/Voiture.h \
 	C:/Users/Ayoub/Desktop/code/Qt/parking_1/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \

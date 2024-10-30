@@ -290,7 +290,8 @@
 		"C:/Qt/6.8.0/llvm-mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.8.0/llvm-mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.8.0/llvm-mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
-		"C:/mingw64/share/cmake-3.30/Modules/GNUInstallDirs.cmake"
+		"C:/mingw64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
+		"C:/Users/Ayoub/Desktop/code/Qt/parking_1/Ressources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/Ayoub/Desktop/code/Qt/parking_1",
 	"CROSS_CONFIG" : false,

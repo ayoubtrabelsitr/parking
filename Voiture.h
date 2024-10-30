@@ -13,6 +13,7 @@ public:
     static int dispo; // Déclarez dispo ici
 
     Voiture(std::string num);
+    ~Voiture();
     double calculePrix();
 };
 

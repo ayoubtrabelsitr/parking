@@ -6,12 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>728</width>
-    <height>375</height>
+    <width>829</width>
+    <height>536</height>
    </rect>
   </property>
+  <property name="maximumSize">
+   <size>
+    <width>829</width>
+    <height>536</height>
+   </size>
+  </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Parking</string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="QIcon::ThemeIcon::GoHome"/>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(255, 131, 255);</string>
@@ -20,8 +29,8 @@
    <widget class="QWidget" name="gridLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>180</y>
+      <x>410</x>
+      <y>140</y>
       <width>261</width>
       <height>121</height>
      </rect>
@@ -56,10 +65,10 @@ color: rgb(0, 0, 0);</string>
    <widget class="QLCDNumber" name="lcdNumber">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>40</y>
-      <width>81</width>
-      <height>41</height>
+      <x>630</x>
+      <y>330</y>
+      <width>101</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -80,8 +89,8 @@ color: rgb(0, 0, 0);</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>90</y>
+      <x>40</x>
+      <y>150</y>
       <width>221</width>
       <height>20</height>
      </rect>
@@ -97,15 +106,15 @@ font: 700 12pt &quot;Segoe UI&quot;;</string>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>460</x>
-      <y>50</y>
-      <width>121</width>
-      <height>20</height>
+      <x>420</x>
+      <y>340</y>
+      <width>201</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">color:rgb(0, 0, 0);
-font: 700 12pt &quot;Segoe UI&quot;;</string>
+font: 700 19pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
      <string>Places Dispo</string>
@@ -114,38 +123,157 @@ font: 700 12pt &quot;Segoe UI&quot;;</string>
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>120</y>
+      <x>40</x>
+      <y>180</y>
       <width>251</width>
-      <height>41</height>
+      <height>61</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft JhengHei UI</family>
+      <pointsize>18</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);</string>
+    </property>
+    <property name="maxLength">
+     <number>15</number>
     </property>
     <property name="alignment">
      <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QTimeEdit" name="timeEdit">
+   <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>190</y>
-      <width>118</width>
-      <height>29</height>
+      <x>30</x>
+      <y>300</y>
+      <width>291</width>
+      <height>80</height>
      </rect>
     </property>
-    <property name="wrapping">
-     <bool>false</bool>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QWidget" name="widget" native="true">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>80</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/res/calendrier.png);</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(0, 0, 0);
+font: 700 13pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>400</y>
+      <width>291</width>
+      <height>80</height>
+     </rect>
     </property>
-    <property name="timeSpec">
-     <enum>Qt::TimeSpec::LocalTime</enum>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="maximumSize">
+        <size>
+         <width>80</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/res/heures.png);</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">color:rgb(0, 0, 0);
+font: 700 13pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>10</y>
+      <width>301</width>
+      <height>80</height>
+     </rect>
     </property>
-    <property name="time">
-     <time>
-      <hour>1</hour>
-      <minute>0</minute>
-      <second>1</second>
-     </time>
-    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QWidget" name="widget_3" native="true">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/res/car.png);</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">color:rgb(0, 0, 0);
+font: 700 26pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Parking </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -153,7 +281,7 @@ font: 700 12pt &quot;Segoe UI&quot;;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>728</width>
+     <width>829</width>
      <height>25</height>
     </rect>
    </property>
