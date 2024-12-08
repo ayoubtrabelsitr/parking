@@ -1,0 +1,9 @@
+C:/Users/Ayoub/Desktop/code/Qt/parking_1/build/Desktop_Qt_6_8_1_MinGW_64_bit-Release/CMakeFiles/parking_1.dir
+C:/Users/Ayoub/Desktop/code/Qt/parking_1/build/Desktop_Qt_6_8_1_MinGW_64_bit-Release/CMakeFiles/edit_cache.dir
+C:/Users/Ayoub/Desktop/code/Qt/parking_1/build/Desktop_Qt_6_8_1_MinGW_64_bit-Release/CMakeFiles/rebuild_cache.dir
+C:/Users/Ayoub/Desktop/code/Qt/parking_1/build/Desktop_Qt_6_8_1_MinGW_64_bit-Release/CMakeFiles/list_install_components.dir
+C:/Users/Ayoub/Desktop/code/Qt/parking_1/build/Desktop_Qt_6_8_1_MinGW_64_bit-Release/CMakeFiles/install.dir
+C:/Users/Ayoub/Desktop/code/Qt/parking_1/build/Desktop_Qt_6_8_1_MinGW_64_bit-Release/CMakeFiles/install/local.dir
+C:/Users/Ayoub/Desktop/code/Qt/parking_1/build/Desktop_Qt_6_8_1_MinGW_64_bit-Release/CMakeFiles/install/strip.dir
+C:/Users/Ayoub/Desktop/code/Qt/parking_1/build/Desktop_Qt_6_8_1_MinGW_64_bit-Release/CMakeFiles/parking_1_autogen_timestamp_deps.dir
+C:/Users/Ayoub/Desktop/code/Qt/parking_1/build/Desktop_Qt_6_8_1_MinGW_64_bit-Release/CMakeFiles/parking_1_autogen.dir

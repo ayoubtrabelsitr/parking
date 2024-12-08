@@ -1,20 +1,16 @@
 #include "Voiture.h"
-#include <iostream> // Pour std::cout
-#include <ctime>    // Pour time()
-#include<vector>
-int Voiture::dispo = 100; // Initialisez ici
+#include <iostream>
+#include <ctime>
+int Voiture::dispo = 100;
 int Voiture::places[100] = {};
 
-Voiture::Voiture(std::string num) : num(num) {
+Voiture::Voiture(const std::string& num) : num(num) {
     this->duration = static_cast<int>(time(0));
     for (int i = 0; i < 100; ++i) {
-        if (places[i] == 0) {
-            places[i] = 1;
+        if (places[i] == 0) { // la première place disponible
+            places[i] = 1;    // place occupée
             this->in = true;
-            dispo--; // Décrémentez ici
-            std::cout << "Place " << i << " attribuée par : " << this->num << std::endl;
-
-            //std::cout << "Places disponibles : " << dispo << std::endl;
+            dispo--;          // places disponibles
             return;
         }
     }
@@ -25,6 +21,5 @@ Voiture::~Voiture(){
 }
 double Voiture::calculePrix() {
     int t = static_cast<int>(time(0));
-    dispo++; // Incrémentez ici lors de la sortie
-    return static_cast<double>(t - this->duration) * 0.005;
+    return static_cast<double>(t - this->duration) * 0.0005;
 }

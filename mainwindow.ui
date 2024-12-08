@@ -23,23 +23,23 @@
    <iconset theme="QIcon::ThemeIcon::GoHome"/>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(255, 131, 255);</string>
+   <string notr="true">background-color: rgb(17, 184, 211);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="gridLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>140</y>
+      <x>480</x>
+      <y>150</y>
       <width>261</width>
       <height>121</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
      <item row="1" column="0">
-      <widget class="QPushButton" name="pushButton">
+      <widget class="QPushButton" name="Entrer">
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(85, 0, 255);
+        <string notr="true">background-color: rgb(225, 19, 56);
 font: 16pt &quot;Segoe UI&quot;;
 color: rgb(0, 0, 0);</string>
        </property>
@@ -49,9 +49,9 @@ color: rgb(0, 0, 0);</string>
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="Sortir">
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(85, 0, 255);
+        <string notr="true">background-color: rgb(225, 19, 56);
 font: 16pt &quot;Segoe UI&quot;;
 color: rgb(0, 0, 0);</string>
        </property>
@@ -72,7 +72,7 @@ color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(85, 0, 255);
+     <string notr="true">background-color: rgb(225, 19, 56);
 font: 16pt &quot;Segoe UI&quot;;
 color: rgb(0, 0, 0);</string>
     </property>
@@ -89,10 +89,10 @@ color: rgb(0, 0, 0);</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>150</y>
-      <width>221</width>
-      <height>20</height>
+      <x>30</x>
+      <y>149</y>
+      <width>361</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -100,7 +100,10 @@ color: rgb(0, 0, 0);</string>
 font: 700 12pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
-     <string>Entrer votre immatr</string>
+     <string>Entrez votre plaque d'immatriculation</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -123,30 +126,43 @@ font: 700 19pt &quot;Segoe UI&quot;;</string>
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>180</y>
-      <width>251</width>
+      <x>30</x>
+      <y>190</y>
+      <width>361</width>
       <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Microsoft JhengHei UI</family>
-      <pointsize>18</pointsize>
-      <bold>true</bold>
+      <family>Segoe UI</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="cursor">
      <cursorShape>IBeamCursor</cursorShape>
     </property>
     <property name="styleSheet">
-     <string notr="true">color:rgb(0, 0, 0);</string>
+     <string notr="true">color:rgb(0, 0, 0);
+font: 16pt &quot;Segoe UI&quot;;
+border-color: rgb(85, 0, 0);
+background-color: rgb(170, 255, 255);</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string notr="true"/>
     </property>
     <property name="maxLength">
      <number>15</number>
     </property>
     <property name="alignment">
      <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>*****</string>
     </property>
    </widget>
    <widget class="QWidget" name="horizontalLayoutWidget">

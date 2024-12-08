@@ -1,7 +1,7 @@
 #ifndef VOITURE_H
 #define VOITURE_H
 
-#include <string> // Pour std::string
+#include <string>
 
 class Voiture {
 public:
@@ -10,9 +10,8 @@ public:
     float prix{ 0 };
     int duration{ 0 };
     static int places[100];
-    static int dispo; // Déclarez dispo ici
-
-    Voiture(std::string num);
+    static int dispo;
+    Voiture(const std::string& num);
     ~Voiture();
     double calculePrix();
 };
