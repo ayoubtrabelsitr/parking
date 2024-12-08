@@ -68,4 +68,21 @@ L'interface graphique est intuitive, grâce à **Qt Widgets** et **Qt Designer**
 - Intégration avec une base de données pour stocker les informations des véhicules.
 - Gestion de paiements avec l'api SMS.
 
- 
+ ### **Images Capturées :**
+
+Voici les images capturées que vous pouvez consulter dans le projet :
+
+1. **Capture 1**  
+   ![Capture 1](capture%20(1).png)
+
+2. **Capture 2**  
+   ![Capture 2](capture%20(2).png)
+
+3. **Capture 3**  
+   ![Capture 3](capture%20(3).png)
+
+4. **Capture 4**  
+   ![Capture 4](capture%20(4).png)
+
+5. **Capture 5**  
+   ![Capture 5](capture%20(5).png)
